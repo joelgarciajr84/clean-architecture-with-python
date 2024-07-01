@@ -5,6 +5,11 @@ disable =
       C0114,  # Missing module docstring
       E0015,  # No return at end of function
       C0304,  # Final newline missing
+      C0115,  # Missing class docstring
+      R0903,  # Too few public methods
+      C0209,  # F STRING
+      C0301,  # Line too long
+
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
 # only in one or another interpreter, leading to false positives when analysed.
