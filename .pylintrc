@@ -9,6 +9,7 @@ disable =
       R0903,  # Too few public methods
       C0209,  # F STRING
       C0301,  # Line too long
+      W0221, # Arguments-differ
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
